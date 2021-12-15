@@ -61,7 +61,7 @@ RegisterFrame.pack(side=TOP, pady=20)
  
  
 #=====================================LABEL WIDGETS=============================
-lbl_title = Label(TitleFrame, text="Register Form", font=('arial', 18), bd=1, width=640)
+lbl_title = Label(TitleFrame, text="Registration Form", font=('arial', 18), bd=1, width=640)
 lbl_title.pack()
 lbl_username = Label(RegisterFrame, text="Username:", font=('arial', 18), bd=18)
 lbl_username.grid(row=1)
